@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "511492668042",
+    "firebase_url": "https://nail-dash-poe-default-rtdb.firebaseio.com",
+    "project_id": "nail-dash-poe",
+    "storage_bucket": "nail-dash-poe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511492668042:android:85e721f7f58ca99d110b73",
+        "android_client_info": {
+          "package_name": "com.naomi.nail_dash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511492668042-01i0q172f73l1ge1fegjdcjj1bj0a5rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPMcUA8CuFAmL5tMldVp3s7VTHdOn-Aj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511492668042-01i0q172f73l1ge1fegjdcjj1bj0a5rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511492668042:android:8d827e88b7654208110b73",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.opsc_task2_nails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511492668042-01i0q172f73l1ge1fegjdcjj1bj0a5rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPMcUA8CuFAmL5tMldVp3s7VTHdOn-Aj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511492668042-01i0q172f73l1ge1fegjdcjj1bj0a5rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

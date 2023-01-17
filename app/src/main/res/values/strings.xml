@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dash Nails</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="share_now">Share  Now</string>
+    <string name="address">Address:</string>
+    <string name="distance">Distance:</string>
+    <string name="time">Time:</string>
+    <string name="google_maps_api_key">"AIzaSyANNxd0f6zOf_VvWwI-B3bY0rOblhUW410"</string>
+    <string name="places_api_key">AIzaSyAXQ-HaW_nD3fevq3G2owuCd26bLoqcWPY</string>
+
+</resources>

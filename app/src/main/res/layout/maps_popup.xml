@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+android:id="@+id/design_bottom_sheet"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="@drawable/popup_background">
+
+    <TextView
+        android:id="@+id/NameOfPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Location"
+        android:textColor="@color/colorDivider"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDD8D8"
+        android:orientation="horizontal"
+        android:paddingTop="14dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="4dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/AddressOfPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_loc"
+                android:text="@string/address"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DistanceOfPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_route"
+                android:text="@string/distance"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TimeOfArrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_time"
+                android:text="@string/time"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleIndicator"
+
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                android:max="5"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDD8D8"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+>
+
+
+
+        <Button
+            android:id="@+id/btnRate"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:onClick="Rate"
+            android:text="Rate"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_rate" />
+        <Button
+            android:id="@+id/btnDirections"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="directions"
+            android:text="Directions"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_d" />
+    </LinearLayout>
+
+</LinearLayout>
